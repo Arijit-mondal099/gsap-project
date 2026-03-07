@@ -12,7 +12,6 @@ const App = () => {
     <main>
       <Navbar />
       <Hero />
-      <div className="min-h-screen"></div>
     </main>
   );
 };
