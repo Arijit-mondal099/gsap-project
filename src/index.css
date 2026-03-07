@@ -84,15 +84,16 @@ body {
     }
   }
 
+  /* Background image */
   .noisy {
-    @apply absolute inset-0 size-full bg-[url("/images/noise.png")];
+    @apply absolute inset-0 size-full bg-[url("/noise.png")];
   }
 
   #hero {
     @apply relative z-10 min-h-dvh w-full border border-transparent;
 
     h1 {
-      @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra;
+      @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra uppercase; 
     }
 
     .left-leaf {
