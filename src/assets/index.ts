@@ -11,8 +11,7 @@ import abt4 from "./images/abt4.png";
 import abt5 from "./images/abt5.png";
 
 // vidos
-import input from "./videos/input.mp4";
-import output from "./videos/output.mp4";
+import heroVideo from "./videos/hero-video.mp4";
 
 export const images = {
   logo,
@@ -28,6 +27,5 @@ export const images = {
 };
 
 export const videos = {
-  input,
-  output,
+  heroVideo,
 };
