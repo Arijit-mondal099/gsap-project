@@ -48,10 +48,6 @@ const Hero = () => {
       delay: 1,
     });
 
-    gsap.from(".right-leaf", {
-
-    });
-
     gsap.timeline({
       scrollTrigger: {
         trigger: "#hero",
