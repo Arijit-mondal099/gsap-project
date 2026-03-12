@@ -5,6 +5,7 @@ import Navbar from "./components/common/Navbar";
 import Hero from "./components/sections/Hero";
 import Cocktails from "./components/sections/Cocktails";
 import About from "./components/sections/About";
+import Art from "./components/sections/Art";
 
 // register gsap plugins to access those globaly
 gsap.registerPlugin(ScrollTrigger, SplitText);
@@ -16,6 +17,8 @@ const App = () => {
       <Hero />
       <Cocktails />
       <About />
+      <Art />
+      <div className="min-h-screen"></div>
     </main>
   );
 };
