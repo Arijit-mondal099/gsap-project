@@ -19,6 +19,12 @@ import drink3 from "./images/cocktails/drink3.png";
 import drink4 from "./images/cocktails/drink4.png";
 import rightArrow from "./images/right-arrow.png";
 import leftArrow from "./images/left-arrow.png";
+import footerLeftLeaf from "./images/footer-left-leaf.png";
+import footerRightLeaf from "./images/footer-right-leaf.png";
+import footerDrinks from "./images/footer-drinks.png";
+import fb from "./images/socials/fb.png";
+import insta from "./images/socials/insta.png";
+import x from "./images/socials/x.png";
 
 // vidos
 import heroVideo from "./videos/hero-video.mp4";
@@ -44,6 +50,12 @@ export const images = {
   drink4,
   rightArrow,
   leftArrow,
+  footerLeftLeaf,
+  footerRightLeaf,
+  footerDrinks,
+  fb,
+  insta,
+  x,
 };
 
 export const videos = {

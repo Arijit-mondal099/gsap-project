@@ -121,3 +121,28 @@ export const allCocktails = [
       "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
   },
 ];
+
+export const socials = [
+  {
+    name: "Instagram",
+    icon: images.insta,
+    url: "#",
+  },
+  {
+    name: "X (Twitter)",
+    icon: images.x,
+    url: "#",
+  },
+  {
+    name: "Facebook",
+    icon: images.fb,
+    url: "#",
+  },
+];
+
+export const openingHours = [
+  { day: "Mon–Thu", time: "11:00am – 12am" },
+  { day: "Fri", time: "11:00am – 2am" },
+  { day: "Sat", time: "9:00am – 2am" },
+  { day: "Sun", time: "9:00am – 1am" },
+];
