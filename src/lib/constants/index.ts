@@ -1,3 +1,5 @@
+import { images } from "../../assets";
+
 export const navLinks = [
   {
     id: "cocktails",
@@ -18,69 +20,104 @@ export const navLinks = [
 ];
 
 export const cocktailLists = [
- {
-	name: "Chapel Hill Shiraz",
-	country: "AU",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Caten Malbee",
-	country: "AU",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Rhino Pale Ale",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
- },
- {
-	name: "Irish Guinness",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
- },
+  {
+    name: "Chapel Hill Shiraz",
+    country: "AU",
+    detail: "Battle",
+    price: "$10",
+  },
+  {
+    name: "Caten Malbee",
+    country: "AU",
+    detail: "Battle",
+    price: "$49",
+  },
+  {
+    name: "Rhino Pale Ale",
+    country: "CA",
+    detail: "750 ml",
+    price: "$20",
+  },
+  {
+    name: "Irish Guinness",
+    country: "IE",
+    detail: "600 ml",
+    price: "$29",
+  },
 ];
 
 export const mockTailLists = [
- {
-	name: "Tropical Bloom",
-	country: "US",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Passionfruit Mint",
-	country: "US",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Citrus Glow",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
- },
- {
-	name: "Lavender Fizz",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
- },
+  {
+    name: "Tropical Bloom",
+    country: "US",
+    detail: "Battle",
+    price: "$10",
+  },
+  {
+    name: "Passionfruit Mint",
+    country: "US",
+    detail: "Battle",
+    price: "$49",
+  },
+  {
+    name: "Citrus Glow",
+    country: "CA",
+    detail: "750 ml",
+    price: "$20",
+  },
+  {
+    name: "Lavender Fizz",
+    country: "IE",
+    detail: "600 ml",
+    price: "$29",
+  },
 ];
 
 export const featureLists = [
- "Perfectly balanced blends",
- "Garnished to perfection",
- "Ice-cold every time",
- "Expertly shaken & stirred",
+  "Perfectly balanced blends",
+  "Garnished to perfection",
+  "Ice-cold every time",
+  "Expertly shaken & stirred",
 ];
 
 export const goodLists = [
- "Handpicked ingredients",
- "Signature techniques",
- "Bartending artistry in action",
- "Freshly muddled flavors",
+  "Handpicked ingredients",
+  "Signature techniques",
+  "Bartending artistry in action",
+  "Freshly muddled flavors",
+];
+
+export const allCocktails = [
+  {
+    id: 1,
+    name: "Classic Mojito",
+    image: images.drink1,
+    title: "Simple Ingredients, Bold Flavor",
+    description:
+      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+  },
+  {
+    id: 2,
+    name: "Raspberry Mojito",
+    image: images.drink2,
+    title: "A Zesty Classic That Never Fails",
+    description:
+      "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+  },
+  {
+    id: 3,
+    name: "Violet Breeze",
+    image: images.drink3,
+    title: "Simple Ingredients, Bold Flavor",
+    description:
+      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+  },
+  {
+    id: 4,
+    name: "Curacao Mojito",
+    image: images.drink4,
+    title: "Crafted With Care, Poured With Love",
+    description:
+      "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+  },
 ];
