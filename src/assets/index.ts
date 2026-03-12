@@ -11,6 +11,14 @@ import abt4 from "./images/abt4.png";
 import abt5 from "./images/abt5.png";
 import check from "./images/check.png";
 import underImg from "./images/under-img.jpg";
+import sliderLeftLeaf from "./images/slider-left-leaf.png";
+import sliderRightLeaf from "./images/slider-right-leaf.png";
+import drink1 from "./images/cocktails/drink1.png";
+import drink2 from "./images/cocktails/drink2.png";
+import drink3 from "./images/cocktails/drink3.png";
+import drink4 from "./images/cocktails/drink4.png";
+import rightArrow from "./images/right-arrow.png";
+import leftArrow from "./images/left-arrow.png";
 
 // vidos
 import heroVideo from "./videos/hero-video.mp4";
@@ -27,7 +35,15 @@ export const images = {
   abt4,
   abt5,
   check,
-  underImg
+  underImg,
+  sliderLeftLeaf,
+  sliderRightLeaf,
+  drink1,
+  drink2,
+  drink3,
+  drink4,
+  rightArrow,
+  leftArrow,
 };
 
 export const videos = {
