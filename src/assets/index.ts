@@ -9,6 +9,8 @@ import abt2 from "./images/abt2.png";
 import abt3 from "./images/abt3.png";
 import abt4 from "./images/abt4.png";
 import abt5 from "./images/abt5.png";
+import check from "./images/check.png";
+import underImg from "./images/under-img.jpg";
 
 // vidos
 import heroVideo from "./videos/hero-video.mp4";
@@ -24,6 +26,8 @@ export const images = {
   abt3,
   abt4,
   abt5,
+  check,
+  underImg
 };
 
 export const videos = {

@@ -52,7 +52,7 @@ body {
 }
 
 @utility masked-img {
-  mask-image: url("/images/mask-img.png");
+  mask-image: url("./assets/images/mask-img.png");
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: 50%;
@@ -93,7 +93,7 @@ body {
     @apply relative z-10 min-h-dvh w-full border border-transparent;
 
     h1 {
-      @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra uppercase; 
+      @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra uppercase;
     }
 
     .left-leaf {
@@ -257,8 +257,8 @@ body {
     }
 
     .masked-container {
-      h2 {
-        @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-32;
+      h3 {
+        @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white md:mt-32 mt-16;
       }
 
       div {
